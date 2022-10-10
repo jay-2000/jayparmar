@@ -6,18 +6,18 @@
 
 ### How To Contribute
 
-[Checkout here](https://github.com/gn009/hack/blob/main/CONTRIBUTING.md)
+[Checkout here](https://github.com/jay-2000/jayparmar/blob/main/CONTRIBUTING.md)
 
 ## Getting Started
 
 Below are the steps to follow to contribute to this project:
 
-**1.** Fork [this](https://github.com/gn009/hack) repository.
+**1.** Fork [this](https://github.com/jay-2000/jayparmar) repository.
 
 **2.** Clone your forked copy of the project.
 
 ```
-git clone https://github.com/<your_user_name>/hack.git
+git clone https://github.com/<your_user_name>/jayparmar.git
 ```
 
 where `your_user_name` is your GitHub username.
@@ -25,13 +25,13 @@ where `your_user_name` is your GitHub username.
 **3.** Navigate to the project directory.
 
 ```
-cd hack
+cd jayparmar
 ```
 
 **4.** Add a reference(remote) to the original repository.
 
 ```
-git remote add upstream https://github.com/gn009/hack.git
+git remote add upstream https://github.com/jay-200/jayparmar.git
 ```
 
 **5.** Check the remotes for this repository.
@@ -63,7 +63,7 @@ git add .
 **10.** Commit your changes .
 
 ```
-git commit -m "bla bla bla"
+git commit -m "sensible message"
 ```
 
 **11.** Push the committed changes in your feature branch to your remote repo.
