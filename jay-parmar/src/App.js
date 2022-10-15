@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import Typed from 'typed.js';
 
+// var type=new Typed('.addname',{
+//   strings:['Ayush','Janhavi','Roshani'],
+//   typeSpeed:150,
+//   backSpeed:150,
+//   loop:true,
+// })
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1><span className='addname'></span></h1>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      
+
     </div>
   );
 }

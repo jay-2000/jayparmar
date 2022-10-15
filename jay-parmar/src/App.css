@@ -1,38 +1,98 @@
 .App {
+  position: absolute;
   text-align: center;
+  background-color: black;
+  /* background: rgb(63,94,251);
+background: -moz-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb",endColorstr="#fc466b",GradientType=1); */
+  width: 100%;
+  height: 100vh;
+}
+.App div{
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  position: absolute;
+  background: transparent;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(1){
+  top: 12%;
+  left: 12%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(2){
+  top: 25%;
+  left: 24%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(3){
+  top: 50%;
+  left: 24%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(4){
+  top: 50%;
+  left: 12%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(5){
+  top: 75%;
+  left: 12%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(6){
+  top: 25%;
+  left: 24%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(7){
+  top: 12%;
+  right: 12%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(8){
+  top: 25%;
+  right: 24%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(9){
+  top: 50%;
+  right: 24%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(10){
+  top: 50%;
+  right: 12%;
+  animation: animate 5s linear infinite;
+}
+.App div:nth-child(11){
+  top: 75%;
+  right: 12%;
+  animation: animate 5s linear infinite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes animate {
+  0%{
+    transform: scale(0) translateY(0) rotate(0);
+    opacity: 1;
+  }
+  100%{
+    transform: scale(1.5) translateY(-40px) rotate(360deg);
+    opacity: 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App h1{
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  font-size: 70px;
+  font-weight: bolder;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span{
+  color: yellow;
 }
